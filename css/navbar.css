@@ -1,0 +1,34 @@
+.navbar {
+    margin: 0;
+    overflow: hidden;
+    padding: 5px 5px;
+    list-style-type: none;
+    background-color: #333;
+    -webkit-overflow-scrolling: initial;
+    top: 0;
+    width: 100%;
+    border-top: 1px solid transparent;
+    -webkit-overflow-scrolling: touch;
+    font-size: larger;
+}
+
+.navbar li {
+    float: right;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+.navbar li a:hover:not(.activenav) {
+    background-color: #111;
+}
+
+.activenav {
+    background-color: #04AA6D;
+    float: left;
+}

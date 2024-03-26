@@ -1,0 +1,46 @@
+.OneRow4Columns {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.EvenCellOfGallery4Columns, .OddCellOfGallery4Columns {
+    -ms-flex: 23%;
+    flex: 23%;
+    text-align: center;
+    margin: 1% 1% 1% 1%;
+    background-color: lightsteelblue;
+    /*background-color: mintcream;*/
+    /*background-color: silver;*/
+    border-radius: 10% 10% 10% 10%;
+}
+
+.EvenCellOfGallery4Columns img,
+.OddCellOfGallery4Columns img {
+    width: 48%;
+    margin-top: 8px;
+    vertical-align: -webkit-baseline-middle;
+    border-radius: 25% 25% 25% 25%;
+}
+
+/*.EvenCellOfGallery4Columns img {
+    border-radius: 25% 25% 25% 25%;
+}*/
+
+/*.EvenCellOfGallery4Columns .imgright, .OddCellOfGallery4Columns .imgleft {
+    border-radius: 25% 25% 25% 25%;
+}*/
+
+/*.imgright {
+    border-radius: 25% 25% 25% 25%;
+}*/
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 1000px) {
+    .EvenCellOfGallery4Columns, .OddCellOfGallery4Columns {
+        -ms-flex: 95%;
+        flex: 95%;
+    }
+}
