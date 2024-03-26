@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The small farm</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navresponsive.css">
+    <!-- <link rel="stylesheet" href="css/carousel.css"> -->
+    <link rel="stylesheet" href="css/Gallery2Columns.css">
+</head>
+
+<body>
+    <header>
+        <span id="MenuActive" onclick="openNav()">Shop ☰</span>
+
+        <div id="NavBar" class="overlay">
+            <a href="#x" class="closebtn" onclick="closeNav()">×</a>
+            <div class="overlay-content">
+                <a id="ItemHome" href="index.html" onclick="closeNav()">Home</a>
+                <a id="ItemShop" href="#shop" onclick="closeNav()">Shop</a>
+                <a id="ItemActivities" href="activities.html" onclick="closeNav()">Activities</a>
+                <a id="ItemContact" href="contact.html" onclick="closeNav()">Contact</a>
+            </div>
+        </div>
+        <!--
+    <nav>
+        <ul class="navbar">
+            <li>
+                <a class="activenav" href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#shop">Shop</a>
+            </li>
+            <li>
+                <a href="activities.html">Activities</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    -->
+    </header>
+
+    <h1>Our cafe and shop</h1>
+
+    <div id="AboutShop">
+        <img src="images/shop/cafestore.jpg" alt="No image" class="GeneralImg">
+        <p>
+            We also have a small café attached to the farm shop so people can enjoy their purchases immediately.
+            Some of the most popular items in a farm shop are:
+        </p>
+
+        <div class="GalleryOfProducts2Columns">
+            <div class="ColumnEven">
+
+                <img src="images/shop/dairy.jpg" alt="No image" class="imgHeader">
+                <h3 class="ColumnHeader">The dairy</h3>
+
+                <div class="NotesOfCell">
+                    <h4 class="NotesHeader">cheese</h4>
+                    <img src="images/shop/cheese.jpg" alt="No image" class="imgEven">
+                </div>
+
+
+                <div class="NotesOfCell">
+                    <h4 class="NotesHeader">milk</h4>
+                    <img src="images/shop/milk.jpg" alt="No image" class="imgOdd">
+                </div>
+
+
+                <div class="NotesOfCell">
+                    <h4 class="NotesHeader">yogurt</h4>
+                    <img src="images/shop/yogurt.jpg" alt="No image" class="imgEven">
+                </div>
+
+            </div>
+            <div class="ColumnOdd">
+
+                <img src="images/shop/bakery.jpg" alt="No image" class="imgHeader">
+                <h3 class="ColumnHeader">The bakery</h3>
+
+                <div class="NotesOfCell">
+                    <h4 class="NotesHeader">bread</h4>
+                    <img src="images/shop/bread.jpg" alt="No image" class="imgOdd">
+                </div>
+
+
+                <div class="NotesOfCell">
+                    <h4 class="NotesHeader">cakes<br>-</h4>
+                    <img src="images/shop/cakes.jpg" alt="No image" class="imgEven">
+                </div>
+
+
+                <div class="NotesOfCell">
+                    <h4 class="NotesHeader">fresh eggs</h4>
+                    <img src="images/shop/eggs.jpg" alt="No image" class="imgOdd">
+                </div>
+
+            </div>
+        </div>
+
+            <!--
+        <div class="GalleryOfProducts2Columns">
+            <div class="ColumnEven">
+
+                <img src="" alt="No image" class="imgHeader">
+                <h3 class="ColumnHeader"></h3>
+
+                <div class="NotesOfCell">
+                    <h4 class="NotesHeader"></h4>
+                    <img src="" alt="No image" class="imgEven">
+                </div>
+
+
+                <div class="NotesOfCell">
+                    <h4 class="NotesHeader"></h4>
+                    <img src="" alt="No image" class="imgOdd">
+                </div>
+
+            </div>
+            <div class="ColumnOdd">
+
+                <img src="" alt="No image" class="imgHeader">
+                <h3 class="ColumnHeader"></h3>
+
+                <div class="NotesOfCell">
+                    <h4 class="NotesHeader"></h4>
+                    <img src="" alt="No image" class="imgEven">
+                </div>
+
+
+                <div class="NotesOfCell">
+                    <h4 class="NotesHeader"></h4>
+                    <img src="" alt="No image" class="imgOdd">
+                </div>
+
+            </div>
+        </div>
+            -->
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-body">
+            © Stanislav Starishko
+        </div>
+    </footer>
+
+    <script src="scripts/navigation.js"> </script>
+</body>
+
+</html>

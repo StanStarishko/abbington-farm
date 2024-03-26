@@ -1,1 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The small farm</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navresponsive.css">
+    <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/Gallery4Columns.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <span id="MenuActive" onclick="openNav()">Home ☰</span>
+
+            <div id="NavBar" class="overlay">
+                <a href="#x" class="closebtn" onclick="closeNav()">×</a>
+                <div class="overlay-content">
+                    <a id="ItemHome" href="#Home" onclick="closeNav()">Home</a>
+                    <a id="ItemShop" href="shop.html" onclick="closeNav()">Shop</a>
+                    <a id="ItemActivities" href="activities.html" onclick="closeNav()">Activities</a>
+                    <a id="ItemContact" href="contact.html" onclick="closeNav()">Contact</a>
+                </div>
+            </div>
+        </nav>
+        <!--
+        <nav>
+            <ul class="navbar">
+                <li>
+                    <a class="activenav" href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="#shop">Shop</a>
+                </li>
+                <li>
+                    <a href="activities.html">Activities</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </nav>
+        -->
+    </header>
+
+    <h1>About us</h1>
+
+    <p>
+        Welcome to our small farm which located between Edinburgh and Carlisle has been converted to a visitor
+        attraction that includes a shop selling local produce and plants, small petting zoo, cafe, play park and walks.
+    </p>
+
+    <!-- Carousel of images -->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <img src="images/carousel/01.jpg" alt="No image" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/carousel/02.jpg" alt="No image" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/carousel/03.jpg" alt="No image" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/carousel/04.jpg" alt="No image" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/carousel/05.jpg" alt="No image" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/carousel/06.jpg" alt="No image" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/carousel/07.jpg" alt="No image" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/carousel/08.jpg" alt="No image" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/carousel/09.jpg" alt="No image" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/carousel/10.jpg" alt="No image" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/carousel/11.jpg" alt="No image" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/carousel/12.jpg" alt="No image" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/carousel/13.jpg" alt="No image" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/carousel/14.jpg" alt="No image" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/carousel/15.jpg" alt="No image" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/carousel/16.jpg" alt="No image" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/carousel/17.jpg" alt="No image" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+            <img src="images/carousel/18.jpg" alt="No image" style="width:100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+            <span class="dot" onclick="currentSlide(6)"></span>
+            <span class="dot" onclick="currentSlide(7)"></span>
+            <span class="dot" onclick="currentSlide(8)"></span>
+            <span class="dot" onclick="currentSlide(9)"></span>
+            <span class="dot" onclick="currentSlide(10)"></span>
+            <span class="dot" onclick="currentSlide(11)"></span>
+            <span class="dot" onclick="currentSlide(12)"></span>
+            <span class="dot" onclick="currentSlide(13)"></span>
+            <span class="dot" onclick="currentSlide(14)"></span>
+            <span class="dot" onclick="currentSlide(15)"></span>
+            <span class="dot" onclick="currentSlide(16)"></span>
+            <span class="dot" onclick="currentSlide(17)"></span>
+            <span class="dot" onclick="currentSlide(18)"></span>
+        </div>
+
+        <!-- <script src="scripts/carousel.js"> </script> -->
+
+    </div>
+    <!-- Carousel of images -->
+
+    <div id="AboutAll">
+        <p>
+            <br>
+            The farm shop has a wide range of fresh product and products, from jams and preserves to eggs and bacon
+        </p>
+
+        <div class="GalleryOfProducts4Columns">
+            <div class="OneRow4Columns">
+                <div class="EvenCellOfGallery4Columns">
+                    <img src="images/home/eggs01.jpg" alt="No image" class="imgleft">
+                    <img src="images/home/eggs02.jpg" alt="No image" class="imgright">
+                    <p>
+                        We have free-range eggs that are laid by the chickens on our farm
+                    </p>
+                </div>
+                <div class="OddCellOfGallery4Columns">
+                    <img src="images/home/pork01.jpg" alt="No image" class="imgleft">
+                    <img src="images/home/pork02.jpg" alt="No image" class="imgright">
+                    <p>
+                        Our pork is reared in the fields around our house, giving it a distinctive flavour
+                    </p>
+                </div>
+                <div class="EvenCellOfGallery4Columns">
+                    <img src="images/home/pies01.jpg" alt="No image" class="imgleft">
+                    <img src="images/home/pies02.jpg" alt="No image" class="imgright">
+                    <p>
+                        Choose from award winning pies with fillings such as: apricot or blackberry
+                    </p>
+                </div>
+                <div class="OddCellOfGallery4Columns">
+                    <img src="images/home/choco01.jpg" alt="No image" class="imgleft">
+                    <img src="images/home/choco02.jpg" alt="No image" class="imgright">
+                    <p>
+                        Hand-made chocolates
+                    </p>
+                </div>
+            </div>
+
+            <br>
+            <div class="OneRow4Columns">
+                <div class="EvenCellOfGallery4Columns">
+                    <img src="images/home/marm01.jpg" alt="No image" class="imgleft">
+                    <img src="images/home/marm02.jpg" alt="No image" class="imgright">
+                    <p>
+                        Local honey and marmalade
+                    </p>
+                </div>
+                <div class="OddCellOfGallery4Columns">
+                    <img src="images/home/bake01.jpg" alt="No image" class="imgleft">
+                    <img src="images/home/bake02.jpg" alt="No image" class="imgright">
+                    <p>
+                        Homemade breads and cakes
+                    </p>
+                </div>
+                <div class="EvenCellOfGallery4Columns">
+                    <img src="images/home/juicesidr01.jpg" alt="No image" class="imgleft">
+                    <img src="images/home/juicesidr02.jpg" alt="No image" class="imgright">
+                    <p>
+                        Locally sourced fruit juices, wines, beers and ciders
+                    </p>
+                </div>
+                <div class="OddCellOfGallery4Columns">
+                    <img src="images/home/garden01.jpg" alt="No image" class="imgleft">
+                    <img src="images/home/garden02.jpg" alt="No image" class="imgright">
+                    <p>
+                        Fresh vegetables grown in our garden
+                    </p>
+                </div>
+            </div>
+            <!--
+            <div class="OneRow4Columns">
+                <div class="EvenCellOfGallery4Columns">
+                    <img src="" alt="No image" class="imgleft">
+                    <img src="" alt="No image" class="imgright">
+                    <p>
+                    </p>
+                </div>
+                <div class="OddCellOfGallery4Columns">
+                    <img src="" alt="No image" class="imgleft">
+                    <img src="" alt="No image" class="imgright">
+                    <p>
+                    </p>
+                </div> 
+                <div class="EvenCellOfGallery4Columns">
+                    <img src="" alt="No image" class="imgleft">
+                    <img src="" alt="No image" class="imgright">
+                    <p>
+                    </p>
+                </div>
+                <div class="OddCellOfGallery4Columns">
+                    <img src="" alt="No image" class="imgleft">
+                    <img src="" alt="No image" class="imgright">
+                    <p>
+                    </p>
+                </div> 
+            </div>
+            -->
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-body">
+            © Stanislav Starishko
+        </div>
+    </footer>
+
+    <script src="scripts/carousel.js"> </script>
+    <script src="scripts/navigation.js"> </script>
+</body>
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The small farm</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/navresponsive.css">
+    <!-- <link rel="stylesheet" href="css/carousel.css"> -->
+    <link rel="stylesheet" href="css/contacts.css">
+</head>
+
+<body>
+    <header>
+        <span id="MenuActive" onclick="openNav()">Contact ☰</span>
+
+        <div id="NavBar" class="overlay">
+            <a href="#x" class="closebtn" onclick="closeNav()">×</a>
+            <div class="overlay-content">
+                <a id="ItemHome" href="index.html" onclick="closeNav()">Home</a>
+                <a id="ItemShop" href="shop.html" onclick="closeNav()">Shop</a>
+                <a id="ItemActivities" href="activities.html" onclick="closeNav()">Activities</a>
+                <a id="ItemContact" href="#contact" onclick="closeNav()">Contact</a>
+            </div>
+        </div>
+        <!--
+    <nav>
+        <ul class="navbar">
+            <li>
+                <a class="activenav" href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#shop">Shop</a>
+            </li>
+            <li>
+                <a href="activities.html">Activities</a>
+            </li>
+            <li>
+                <a href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    -->
+    </header>
+
+    <div class="MainContent">
+        <h2 class="ContactHeader">Contact info</h2>
+        <hr class="featurette-divider">
+
+        <!--<div id="map"></div>--> <!-- Its use with JS -->
+        <div class="ContactDetails">
+            <iframe id="map"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1130.2145954898776!2d-3.6995775!3d55.490046!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4888017d5e4d7631%3A0xeae25200c5209560!2sOver%20Abington%20Farm!5e0!3m2!1sru!2suk!4v1688250085142!5m2!1sru!2suk"
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <table class="FarmDetails">
+                <tr>
+                    <td>
+                        <p>
+                            <b>Address</b><br>
+                            Abbington Farm,<br>
+                            Abington,<br>
+                            Biggar<br>
+                            ML12 6RH<br>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <b>Tel:</b> 01864 502501
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>
+                            <b>Opening Times</b><br>
+                            <b>Monday to Saturday</b> – 8.00am to 5.00pm<br>
+                            <b>Sunday</b> – 9.00am to 4.30pm<br>
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <footer class="site-footer">
+        <div class="footer-body">
+            © Stanislav Starishko
+        </div>
+    </footer>
+
+    <script src="scripts/navigation.js"> </script>
+    <!--<script src="scripts/maps.js"> </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=OurGoogleMapKey&callback=GoogleMap"
+        async defer></script>-->
+
+</body>
+
+</html>
